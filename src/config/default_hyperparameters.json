@@ -1,0 +1,14 @@
+{
+  "auto_class_weights": "SqrtBalanced",
+  "bagging_temperature": 0.05336169179455724,
+  "colsample_bylevel": 0.5006380634242127,
+  "diffusion_temperature": 62.72999516347615,
+  "has_time": false,
+  "l2_leaf_reg": 6.885852437148102,
+  "learning_rate": 0.16003285631484013,
+  "max_depth": 7,
+  "min_data_in_leaf": 26,
+  "model_shrink_rate": 0.022259485832457494,
+  "n_estimators": 423,
+  "nan_mode": "Forbidden"
+}
