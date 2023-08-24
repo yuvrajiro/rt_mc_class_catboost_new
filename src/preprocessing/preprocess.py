@@ -21,7 +21,7 @@ from preprocessing.target_encoder import (
     transform_targets,
 )
 
-from src.schema.data_schema import MulticlassClassificationSchema
+from schema.data_schema import MulticlassClassificationSchema
 
 PIPELINE_FILE_NAME = "pipeline.joblib"
 TARGET_ENCODER_FILE_NAME = "target_encoder.joblib"
