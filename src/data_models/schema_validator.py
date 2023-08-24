@@ -117,7 +117,7 @@ class SchemaModel(BaseModel):
 
     @validator("modelCategory", allow_reuse=True)
     def valid_problem_category(cls, v):
-        if v != "multiclass_classification_usd_2023":
+        if v != "multiclass_classification_usd_2023" or v != "multiclass_classification":
             raise ValueError(
                 f"modelCategory must be 'multiclass_classification'. Given {v}"
             )
